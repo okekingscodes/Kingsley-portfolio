@@ -314,7 +314,10 @@ form .btn2 {
 }
 
 /*========MEDIA QUERY STYLE=======================*/
-nav .fa {
+nav .fa-solid {
+    display: none;
+}
+nav .fa-sharp {
     display: none;
 }
 
@@ -323,13 +326,18 @@ nav .fa {
         background-image: url(images/phone-background.png); 
     }
     .header-text {
-        margin-top: 100%;
+        margin-top: 350px;
         font-size: 16px;
     }
     .header-text h1 {
         font-size: 30px;
     }
-    nav .fa {
+    nav .fa-sharp {
+        display: block;
+        font-size: 25px;
+        right: 20px;
+    }
+    nav .fa-solid {
         display: block;
         font-size: 25px;
     }
@@ -348,7 +356,7 @@ nav .fa {
         display: block;
         margin: 25px;
     }
-    nav ul li .fa {
+    nav ul li .fa-sharp {
         position: absolute;
         top: 25px;
         left: 25px;
