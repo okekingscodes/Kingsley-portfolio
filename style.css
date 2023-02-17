@@ -384,6 +384,14 @@ nav .fa-sharp {
     .copyright {
         font-size: 14px;
     }
+        nav {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 999;
+          background: #000000;
+        }
 }
 #msg {
     color: #61b752;
